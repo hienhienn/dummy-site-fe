@@ -1,0 +1,44 @@
+.home-container {
+
+  .list-note {
+    display: flex;
+    flex-direction: column-reverse;
+    max-height: 90vh;
+    overflow: auto;
+
+
+    .wrap {
+      align-items: end;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: auto;
+      max-width: 1000px;
+    }
+
+    .text-date {
+      color: gray;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    
+    .note {
+      background: pink;
+      padding: 16px;
+      border-radius: 16px;
+      width: fit-content;
+      margin-bottom: 16px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+      display: grid;
+      gap: 8px;
+      justify-items: end;
+
+      .img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+    }
+  }
+
+}
